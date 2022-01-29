@@ -129,3 +129,5 @@ dmypy.json
 .pyre/
 
 .vscode
+# Ignore the config.js file.
+config.js
