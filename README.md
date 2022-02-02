@@ -43,7 +43,7 @@ For this Deliverable, JavaScript, Leaflet.js and geoJSON data were applied to ad
 
 **Deliverable 3: ADD AN ADDITIONAL MAP**
 
-JavaScript and Leaflet with Mapbox options were incorporated to add a third vmap view (Figure 4). 
+JavaScript and Leaflet with Mapbox options were incorporated to add a third map view. As you can see in Figure 4, a street, satellite and dark view were added so that the viewer can toggle between the three options for optimal visualizations. 
 
 <img width="1440" alt="3 VIEWS" src="https://user-images.githubusercontent.com/90135381/152232114-049f58cc-fc5e-47b7-ab7a-b3cb6588ee25.png">
 
