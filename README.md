@@ -59,7 +59,7 @@ JavaScript and Leaflet with Mapbox options were incorporated to add a third map 
 
 
 
-**REFERENCES** Google, MapBox, StackOverflow, GitHub
+**REFERENCES** BCS, Google, MapBox, StackOverflow, GitHub
 
 
 
