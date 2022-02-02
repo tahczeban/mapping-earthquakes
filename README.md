@@ -2,6 +2,9 @@
 
 
 ***RESOURCES***
+Software: HTML/CSS, JavaScript, Visual Studio Code 1.49.1, Leaflet 1.7.1, D3.js 6.2.0
+
+Data Source: Earthquakes GeoJSON, Earthquakes above 4.5mag GeoJSON, Tectonic Plate GeoJSON
 
 
 ***OVERVIEW***
@@ -36,6 +39,8 @@
 <img width="1440" alt="streetview depicting earthquakes with interactive legends" src="https://user-images.githubusercontent.com/90135381/152206098-4fafb98c-27bb-4afb-a4e9-b49ebf47d077.png">
 
 
+
+**REFERENCES** Google, MapBox, StackOverflow, GitHub
 
 
 
