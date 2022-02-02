@@ -3,23 +3,24 @@ console.log("working");
 
 // We create the tile layer that will be the background of our map.
 let streets = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/streets-v11/tiles/{z}/{x}/{y}?access_token={accessToken}', {
-  attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery (c) <a href="https://www.mapbox.com/">Mapbox</a>',
-  maxZoom: 18,
-  accessToken: API_KEY
+    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery (c) <a href="https://www.mapbox.com/">Mapbox</a>',
+    maxZoom: 18,
+    accessToken: API_KEY
 });
+
 // We create the second tile layer that will be the background of our map.
 let satelliteStreets = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/satellite-streets-v11/tiles/{z}/{x}/{y}?access_token={accessToken}', {
-  attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery (c) <a href="https://www.mapbox.com/">Mapbox</a>',
-  maxZoom: 18,
-  accessToken: API_KEY
+    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery (c) <a href="https://www.mapbox.com/">Mapbox</a>',
+    maxZoom: 18,
+    accessToken: API_KEY
 });
 
 //------------------------------DELIVERABLE 3: Add An Additional Map-----------------------------------------------------------------
-// Bonus layer for fun! 
+
 let dark = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/dark-v10/tiles/{z}/{x}/{y}?access_token={accessToken}', {
-    attribution: 'Map data <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery (c) <a href="https://www.mapbox.com/">Mapbox</a>',
-    maxZoom: 18,
-    accessToken: API_KEY
+    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery (c) <a href="https://www.mapbox.com/">Mapbox</a>',
+	maxZoom: 18,
+	accessToken: API_KEY
 });
 
 // Create the map object with center, zoom level and default layer.
@@ -65,7 +66,7 @@ d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geoj
       opacity: 1,
       fillOpacity: 1,
       fillColor: getColor(feature.properties.mag),
-      color: "#ffc0cb",
+      color: "#000000",
       radius: getRadius(feature.properties.mag),
       stroke: true,
       weight: 0.5
@@ -123,15 +124,14 @@ d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geoj
 
   //------------------------------------------DELIVERABLE 2: Add Major Earthquake Data-------------------------------------------
 // 3. Retrieve the major earthquake GeoJSON data >4.5 mag for the week.
-d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson").then(function(data) {
-
+d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_week.geojson").then(function (data) {
   // 4. Use the same style as the earthquake data.-----------------------
   function styleInfo(feature) {
     return {
       opacity: 1,
       fillOpacity: 1,
       fillColor: getColor(feature.properties.mag),
-      color: "#ffc0cb",
+      color: "#000000",
       radius: getRadius(feature.properties.mag),
       stroke: true,
       weight: 0.5
@@ -146,7 +146,7 @@ d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geoj
     if (magnitude > 4) {
       return "#ea822c";
     }
-    return "#98ee00"; 
+    return "1a1a1a"; 
   }
   
   // 6. Use the function that determines the radius of the earthquake marker based on its magnitude.
@@ -212,7 +212,7 @@ legend.onAdd = function() {
   d3.json(tectonicdata).then(function(data) {
     L.geoJson(data,
       {color: "#008000",
-      weight: 5
+      weight: 3
       }).addTo(tectonicPlates);
 
   });
