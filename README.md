@@ -28,7 +28,7 @@ Tectonic plate data was obtained and added to a map via d3.json() and geoJSON la
 
 **DELIVERABLE 2: ADDING MAJOR EARTHQUAKE DATA**
 
-For this Deliverable, JavaScript, Leaflet.js and geoJSON data were applied to add a layer to the interactive maps, with legend, to illustrate major earthquake data. Popup markers were then added to display the magnitude and location of the earthquakes 
+For this Deliverable, JavaScript, Leaflet.js and geoJSON data were applied to add a layer to the interactive maps, with legend, to illustrate major earthquake data. Pop-up markers were then added to display the magnitude and location of the earthquakes (Figures 2 and 3, respectively).
 
 
 <img width="1440" alt="correction to major earthquakes only" src="https://user-images.githubusercontent.com/90135381/152224663-0dae3204-0a0c-4ebc-9c57-25e4052f957b.png">
@@ -37,16 +37,17 @@ For this Deliverable, JavaScript, Leaflet.js and geoJSON data were applied to ad
          
 <img width="1440" alt="pop up markers" src="https://user-images.githubusercontent.com/90135381/152237260-b171ab21-d266-4415-9137-cedb79b82df2.png">
                                  
-                                          
+                                          Figure 3: Pop-up Markers                                          
                                           
                                           
 
 **Deliverable 3: ADD AN ADDITIONAL MAP**
 
+JavaScript and Leaflet with Mapbox options were incorporated to add a third vmap view (Figure 4). 
 
 <img width="1440" alt="3 VIEWS" src="https://user-images.githubusercontent.com/90135381/152232114-049f58cc-fc5e-47b7-ab7a-b3cb6588ee25.png">
 
-                                          Figure 3: 3 Map Styles
+                                          Figure 4: 3 Map Styles
 
 
 
