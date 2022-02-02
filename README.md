@@ -8,9 +8,14 @@
 
 ***RESULTS AND SUMMARY***
 
+**DELIVERABLE 1: ADD TECTONIC PLATE DATA**
+
 <img width="1440" alt="third view-dark depicting tectonic plates" src="https://user-images.githubusercontent.com/90135381/152206194-c59decbb-8c6b-4250-8139-694c75601f21.png">
 
 
+
+
+**DELIVERABLE 2: ADDING MAJOR EARTHQUAKE DATA**
 <img width="1440" alt="correction to major earthquakes only" src="https://user-images.githubusercontent.com/90135381/152224663-0dae3204-0a0c-4ebc-9c57-25e4052f957b.png">
 
 
