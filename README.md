@@ -34,7 +34,8 @@ For this Deliverable, JavaScript, Leaflet.js and geoJSON data were applied to ad
 <img width="1440" alt="correction to major earthquakes only" src="https://user-images.githubusercontent.com/90135381/152224663-0dae3204-0a0c-4ebc-9c57-25e4052f957b.png">
 
                                           Figure 2: Major Earthquakes
-         <img width="1440" alt="pop up markers" src="https://user-images.githubusercontent.com/90135381/152237260-b171ab21-d266-4415-9137-cedb79b82df2.png">
+         
+<img width="1440" alt="pop up markers" src="https://user-images.githubusercontent.com/90135381/152237260-b171ab21-d266-4415-9137-cedb79b82df2.png">
                                  
                                           
                                           
