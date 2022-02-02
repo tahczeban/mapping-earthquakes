@@ -2,7 +2,7 @@
 
 <img width="1440" alt="Streetview depicting all options in legends" src="https://user-images.githubusercontent.com/90135381/152206091-9708d714-9ef4-455f-bce0-a73da75fc77c.png">
 
-Please visit my page at: https://tahczeban.github.io/mapping-earthquakes/
+You are welcome to visit my page at: https://tahczeban.github.io/mapping-earthquakes/
 
 ***RESOURCES***
 Software: HTML/CSS, JavaScript, VSC, Leaflet, D3.js
