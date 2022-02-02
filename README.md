@@ -27,6 +27,8 @@ Tectonic plate data was obtained and added to a map via d3.json() and geoJSON la
 
 
 **DELIVERABLE 2: ADDING MAJOR EARTHQUAKE DATA**
+
+For this Deliverable, JavaScript, Leaflet.js and geoJSON data were applied to add a layer to the interactive maps, with legend, to illustrate major earthquake data. Popup markers were then added to display the magnitude and location of the earthquakes 
 <img width="1440" alt="correction to major earthquakes only" src="https://user-images.githubusercontent.com/90135381/152224663-0dae3204-0a0c-4ebc-9c57-25e4052f957b.png">
 
 
