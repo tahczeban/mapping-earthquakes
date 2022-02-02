@@ -1,13 +1,17 @@
 # mapping-earthquakes
 
+<img width="1440" alt="Streetview depicting all options in legends" src="https://user-images.githubusercontent.com/90135381/152206091-9708d714-9ef4-455f-bce0-a73da75fc77c.png">
+
+
 
 ***RESOURCES***
 Software: HTML/CSS, JavaScript, Visual Studio Code 1.49.1, Leaflet 1.7.1, D3.js 6.2.0
 
 Data Source: Earthquakes GeoJSON, Earthquakes above 4.5mag GeoJSON, Tectonic Plate GeoJSON
 
-
 ***OVERVIEW***
+
+The purpose of this challenge was to assist Basil and Sadhana create an interactive earthquake map depicting earthquakes, tectonic plates and major earthquakes in 3 different views.
 
 ***RESULTS AND SUMMARY***
 
@@ -30,7 +34,6 @@ Data Source: Earthquakes GeoJSON, Earthquakes above 4.5mag GeoJSON, Tectonic Pla
 
 
 
-<img width="1440" alt="Streetview depicting all options in legends" src="https://user-images.githubusercontent.com/90135381/152206091-9708d714-9ef4-455f-bce0-a73da75fc77c.png">
 
 
 
