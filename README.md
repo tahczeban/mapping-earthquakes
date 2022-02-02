@@ -12,6 +12,9 @@
 
 
 
+<img width="1440" alt="change of code to highlight major earthquakes" src="https://user-images.githubusercontent.com/90135381/152219572-8377bfba-721f-4533-95df-17825f4acab3.png">
+
+
 
 <img width="1440" alt="Streetview depicting all options in legends" src="https://user-images.githubusercontent.com/90135381/152206091-9708d714-9ef4-455f-bce0-a73da75fc77c.png">
 
