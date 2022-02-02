@@ -5,20 +5,23 @@
 
 
 ***RESOURCES***
-Software: HTML/CSS, JavaScript, Visual Studio Code 1.49.1, Leaflet 1.7.1, D3.js 6.2.0
+Software: HTML/CSS, JavaScript, VSC, Leaflet, D3.js
 
-Data Source: Earthquakes GeoJSON, Earthquakes above 4.5mag GeoJSON, Tectonic Plate GeoJSON
+Data Source: Mapbox Earthquakes GeoJSON, Earthquakes above 4.5mag GeoJSON, Tectonic Plate GeoJSON
 
 ***OVERVIEW***
 
-The purpose of this challenge was to assist Basil and Sadhana create an interactive earthquake map depicting earthquakes, tectonic plates and major earthquakes in 3 different views.
+The purpose of this challenge was to assist Basil and Sadhana create an interactive earthquake map depicting earthquakes, tectonic plates and major earthquakes in 3 different views. Pertinent information was obtained from mapbox API's/GeoJSON in order to visualize earthquake proximity to tectonic plates.
 
 ***RESULTS AND SUMMARY***
 
 **DELIVERABLE 1: ADD TECTONIC PLATE DATA**
 
-<img width="1440" alt="third view-dark depicting tectonic plates" src="https://user-images.githubusercontent.com/90135381/152206194-c59decbb-8c6b-4250-8139-694c75601f21.png">
+Tectonic plate data was obtained  and added to a map via d3.json() and geoJSON layers with LineString data so the tectonics plates could be seen as an overlay on the map (Figure 1). 
 
+<img width="1440" alt="third view-dark depicting tectonic plates" src="https://user-images.githubusercontent.com/90135381/152206194-c59decbb-8c6b-4250-8139-694c75601f21.png">
+                                       
+                                          Figure 1: Tectonic Plates
 
 
 
