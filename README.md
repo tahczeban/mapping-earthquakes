@@ -1,6 +1,13 @@
 # mapping-earthquakes
 
 
+***RESOURCES***
+
+
+***OVERVIEW***
+
+***RESULTS AND SUMMARY***
+
 <img width="1440" alt="third view-dark depicting tectonic plates" src="https://user-images.githubusercontent.com/90135381/152206194-c59decbb-8c6b-4250-8139-694c75601f21.png">
 
 
