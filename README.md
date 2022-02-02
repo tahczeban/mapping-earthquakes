@@ -12,7 +12,8 @@
 
 
 
-<img width="1440" alt="change of code to highlight major earthquakes" src="https://user-images.githubusercontent.com/90135381/152219572-8377bfba-721f-4533-95df-17825f4acab3.png">
+<img width="1440" alt="correction to major earthquakes only" src="https://user-images.githubusercontent.com/90135381/152223688-75e03cfa-2807-42fb-abcb-4a6bb00a9675.png">
+
 
 
 
